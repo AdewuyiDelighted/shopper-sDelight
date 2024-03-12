@@ -24,11 +24,13 @@ public class Product {
 
     @PrePersist
     public void setCreatedAt() {
+
         this.createdAt = createdAt;
     }
 
     @PreUpdate
     public void setUpdatedAt() {
+
         this.updatedAt = updatedAt;
     }
 
